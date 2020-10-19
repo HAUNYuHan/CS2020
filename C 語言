@@ -1,0 +1,32 @@
+if (Num1 < Nume2)
+{
+    TmpNum=Num1;
+    Num1=Num2;
+    Num2=TmpNum; /*找出兩數較大值*/
+}
+while (Num2 ！= 0)
+{
+    TmpNum=Num1 % Num1 % Num2 ; /* 求兩數的餘數值*/
+    Num1=Num2;
+    Num2=TmpNum; /*輾轉相除法*/
+}
+print("最大公因數(g.c.d)=%d\n",Num1);
+
+float Pow( float x, int y )
+{
+    float p = 1;
+    int i;
+    for( i = 1; i <= y; i++)
+    p *= x;
+    
+    return p;
+}
+
+int main(void)
+{
+    fioat x;
+    int y;
+    print( "請輸入次方運算(ex.2^3) :")};
+    scanf("%f^%d",&x, &y );
+    print( "次方運算結果:%.4f\n", Pow(x,y) );
+    /*輸出與呼叫 Pow() 函數*/
