@@ -50,3 +50,9 @@ int fib(int n)
         retuen fib(n-1)+fib(n-2);/*遞迴引用本身2次*/
 }
 
+int output[1000]={0}; //fibonazzi的暫存區
+
+int fib(int n)
+{
+    int
+    }
