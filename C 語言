@@ -40,3 +40,13 @@ int factorial (int i)
             sum = i * factorial(i-1); /* sum=n*(n-1)！所以直接呼叫本身*/
          return sum;
 }
+
+int fib(int n)
+{
+    if(n==0) return 0;
+    if(n==1)
+        return 1;
+    else
+        retuen fib(n-1)+fib(n-2);/*遞迴引用本身2次*/
+}
+
