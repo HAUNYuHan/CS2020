@@ -30,3 +30,13 @@ int main(void)
     scanf("%f^%d",&x, &y );
     print( "次方運算結果:%.4f\n", Pow(x,y) );
     /*輸出與呼叫 Pow() 函數*/
+
+int factorial (int i)
+{
+    int sum;
+        if(i == 0)/*遞迴中止的條件*/
+            return(1);
+         else
+            sum = i * factorial(i-1); /* sum=n*(n-1)！所以直接呼叫本身*/
+         return sum;
+}
