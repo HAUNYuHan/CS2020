@@ -61,3 +61,7 @@ OSI各層功能
 
 傳輸控制協定（英語：Transmission Control Protocol，縮寫：TCP）是一種連接導向的、可靠的、基於位元組流的傳輸層通信協定，由IETF的RFC 793定義。 在簡化的電腦網路OSI模型中，它完成第四層傳輸層所指定的功能。 用戶資料報協定（UDP）是同一層內另一個重要的傳輸協定。
 用戶資料報協定（英語：User Datagram Protocol，縮寫：UDP；又稱用戶資料包協定）是一個簡單的面向資料報的通信協定，位於OSI模型的傳輸層。 該協定由David P. Reed. 在1980年設計且在RFC 768中被規範。
+簡單郵件傳輸協定（英語：Simple Mail Transfer Protocol，縮寫：SMTP）是一個在網際網路上傳輸電子郵件的標準。 SMTP是一個相對簡單的基於文字的協定。 
+超文本傳輸協定（英語：HyperText Transfer Protocol，縮寫：HTTP）是一種用於分佈式、協作式和超媒體訊息系統的應用層協定。 HTTP是全球資訊網的數據通信的基礎。
+檔案傳輸協定（英語：File Transfer Protocol，縮寫：FTP）是一個用於在電腦網路上在客戶端和伺服器之間進行檔案傳輸的應用層協定。
+https://kknews.cc/zh-tw/tech/mmxyvkg.html
