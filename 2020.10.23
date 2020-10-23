@@ -70,3 +70,4 @@ https://notfalse.net/7/three-way-handshake
 何謂communcation protocol[簡稱協定protocol]?
 WHY Layering為何要分層?
 
+『通訊協定』（Communication Protocol）就是定義電腦間互相通訊且受共同認定的協議標準，網路上所有電腦都必須依照此標準來互相通訊，才能使各個電腦間互相了解對方的意思，並能完成其共同的任務（job），這個協議標準則稱之。
