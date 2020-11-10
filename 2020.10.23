@@ -107,3 +107,6 @@ UDP 則是一個非連線型(Connectionless)的非可靠傳輸協定﹐它並不
 第二層隧道協定（英語：Layer Two Tunneling Protocol，縮寫為L2TP）是一種虛擬隧道協定，通常用於虛擬私人網路。L2TP協定自身不提供加密與可靠性驗證的功能，可以和安全協定搭配使用，從而實現資料的加密傳輸。經常與L2TP協定搭配的加密協定是IPsec，當這兩個協定搭配使用時，通常合稱L2TP/IPsec。
 
 網際網路安全協定（英語：Internet Protocol Security，縮寫：IPsec）是一個協定套件，透過對IP協定的封包進行加密和認證來保護IP協定的網路傳輸協定族（一些相互關聯的協定的集合）。
+
+有線等效加密（英語：Wired Equivalent Privacy，縮寫：WEP），又稱無線加密協定（英語：Wireless Encryption Protocol，縮寫：WEP），是個保護無線網路資料安全的體制。
+WPA（英語：Wi-Fi Protected Access），意即「Wi-Fi存取保護」，是一種保護無線網路（Wi-Fi）存取安全的技術標準。
