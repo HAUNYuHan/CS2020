@@ -2,4 +2,12 @@
 2.Why Layering?
 3.列出OSI Modle 與TCP/IP proctocol對應圖
 *1:需用中英寫出各層的名稱
-*2:須說明OSI Modle
+*2:須說明OSI Modle每一層的簡略功能
+4.簡述下列協定的功能與特色並說明它們運作在TCP/IP的哪一層?
+(1)HTTP vs HTTPS
+(2)Telent vs SSL
+(3)DNS
+(4)IP
+(5)ICMP
+5.TCP VS UDP
+
