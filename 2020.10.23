@@ -110,3 +110,84 @@ UDP 則是一個非連線型(Connectionless)的非可靠傳輸協定﹐它並不
 
 有線等效加密（英語：Wired Equivalent Privacy，縮寫：WEP），又稱無線加密協定（英語：Wireless Encryption Protocol，縮寫：WEP），是個保護無線網路資料安全的體制。
 WPA（英語：Wi-Fi Protected Access），意即「Wi-Fi存取保護」，是一種保護無線網路（Wi-Fi）存取安全的技術標準。
+
+
+HTTP vs HTTPS
+超文本傳輸協定（HyperText Transfer Protocol）
+http是網頁與您的電腦瀏覽器直接透過明文進行傳輸，以一般(非安全)模式下進行互動交談，所以在網際網路上內容有可能遭攔有心人士截竊聽的，HTTP協定不使用加密協定
+超文本傳輸安全協定(HyperText Transfer Protocol Secure)
+HTTPS協定，以保密為前提為研發，可以算是HTTP的進階安全版。是以加入SSL協定作為
+安全憑證，因此網站透過協定上的加密機制後能夠防止資料竊取者就算攔截到了傳輸資訊卻也無法直接看到傳輸中的資料
+
+FTP vs SFTP | FTPS
+File Transfer Protocol（文件傳輸協議）
+Secure File Transfer Protocol(安全文件傳送協議)
+ftps相當ftp加密
+sftp是藉助ssl協議加密，ftps是藉助ssh加密。
+sftp協議是ssh中的一條獨立的協議，利用sftp伺服器就可以傳輸數據。
+而ftps是ftp-over-ssl的意思，即ftp藉助ssl協議加密傳輸，不但要用ftp伺服器還要用ssl協議加密。
+（如果是ftp-over-ssh，就是完全不同於sftp的傳輸方式了，就是利用ftp伺服器和ssh協議加密傳輸數據。 ）
+
+
+TELNET vs SSH
+telnet：執行Telnet程式來連線到遠端伺服器並輸入帳密讓使用者可以遠端控制主機。
+但是因為傳輸的資料並未加密所以容易遭到竊取，因此後來多改用較安全的SSH。
+SSH：是在不安全的網路上進行安全遠端登入和其他安全網路服務的協定(RFC 4251)，
+SSH由三個主要協定組成
+1.傳輸層協定（The Transport Layer Protocol）：傳輸層協定提供伺服器認證，資料機密性，資訊完整性等的支援。
+傳輸層協定運行在TCP連線上。
+2.使用者認證協定（The User Authentication Protocol）：使用者認證協定為伺服器提供客戶端的身份鑑別。
+使用者認證協定運行在傳輸層協定之上。
+3.連線協定（The Connection Protocol）：連線協定將加密的資訊隧道復用成若干個邏輯通道，提供給更高層的應用協定使用。
+連線協定運行在使用者認證協定之上。
+
+SMTP vs POP3 IMAP 4
+Simple Mail Transfer Protocol(簡單郵件傳輸協議)
+是一組用於從來源地址到目的地址傳輸郵件的協定，通過它來控制郵件的中轉方式。
+屬於TCP/IP 協議組，它幫助每台電腦在發送或中轉信件時找到下一個目的地。 SMTP 伺服器就是遵循SMTP 協議的發送郵件伺服器。
+要求必須在提供了帳號和密碼之後才可以登入SMTP 伺服器，這就使得那些垃圾郵件的散播者無可乘之機。 增加SMTP 認證的目的是為了使用戶避免受到垃圾郵件的侵擾。
+Post Office Protocol 3
+伺服器會保留內送的電子郵件訊息，直到使用者檢查電子郵件為止，而郵件會在那個時候傳輸到使用者的電腦。
+Internet Mail Access Protocol(交互式郵件存取協議)
+可讓使用者不需先將電子郵件訊息下載到自己的電腦，即可使用這些訊息。
+使用者可以直接在電子郵件伺服器上預覽、刪除及組織郵件，而且複本會儲存在伺服器上，直到使用者刪除郵件。
+IMAP 常用於商用電子郵件帳戶。
+
+DNS vs DNSsec
+Domain Name System(網域名稱系統)
+是網際網路的一項服務。它作為將域名和IP位址相互對映的一個分散式資料庫，能夠使人更方便地存取網際網路。
+Domain Name System Security Extensions(域名系統安全擴充)
+是Internet工程任務組 （IETF）的對確保由域名系統 （DNS）中提供的關於網際網路協定（IP）網路使用特定類型的資訊規格套件。
+
+DHCP
+Dynamic Host Configuration Protocol(動態主機設定協定)
+是一個用於IP網路的網路協定，位於OSI模型的應用層，使用DHCP協定工作，主要有兩個用途：
+用於內部網路或網路服務供應商自動分配IP位址給用戶
+用於內部網路管理員對所有電腦作中央管理
+
+LDAP
+Lightweight Directory Access Protocol(輕型目錄存取協定)
+通過IP協定提供存取控制和維護分散式資訊的目錄資訊。
+
+SAMBA
+此軟體在Windows與UNIX系列作業系統之間搭起一座橋樑，讓兩者的資源可互通有無。
+
+SNMP
+Simple Network Management Protocol(簡單網路管理協定)
+該協定能夠支援網路管理系統，用以監測連接到網路上的裝置是否有任何引起管理上關注的情況。
+
+RTMP RTSP
+RTMP協議(Real-Time Messaging Protocol)
+（1）是流媒體協議。
+（2）RTMP協議是 Adobe 的私有協議，未完全公開。
+（3）RTMP協議一般傳輸的是 flv，f4v 格式流。
+（4）RTMP一般在 TCP 1個通道上傳輸命令和資料。
+RTSP協議(Real Time Streaming Protocol)
+（1）是流媒體協議。
+（2）RTSP協議是共有協議，並有專門機構做維護。
+（3）RTSP協議一般傳輸的是 ts、mp4 格式的流。
+（4）RTSP傳輸一般需要 2-3 個通道，命令和資料通道分離
+
+MQTT
+訊息佇列遙測傳輸（Message Queuing Telemetry Transport）
+是為硬體效能低下的遠端裝置以及網路狀況糟糕的情況下而設計的發布/訂閱型訊息協定，為此，它需要一個訊息中介軟體，以解決當前繁重的資料傳輸協定，如：HTTP。
