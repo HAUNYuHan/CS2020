@@ -1,0 +1,36 @@
+<html lang="zh">
+<head>
+    <meta charset="utf-8" />
+    <title>蘭嶼。微旅行</title>
+</head>
+<body>
+    <header>
+        <h1>蘭嶼。微旅行</h1>
+        <nav>
+            <ul>
+                <li><a href='#'>首頁</a></li>
+                <li><a href='#'>泌遊路線</a></li>
+                <li><a href='#'>旅人微博</a></li>
+                <li><a href='#'>相關資訊</a></li>
+            </ul>
+        </nav>
+    </header>
+    <article>
+        <section>
+            <h2>充滿驚豔的魅力小島</h2>
+            <p>位在台東外海的蘭嶼島，四週不僅擁有清澈湛藍的海洋，本島的陸地上矗立林木森天的原野。</p>
+        </section>
+    </article>
+    <aside>
+        <h2>推薦景點</h2>
+        <ol>
+            <li><a href="#">饅頭岩</a></li>
+            <li><a href="#">蘭嶼燈塔</a></li>
+            <li><a href="#">軍艦岩</a></li>
+        </ol>
+    </aside>
+    <footer>
+        蘭嶼。微旅行 版權所有
+    </footer>
+</body>
+</html>	
