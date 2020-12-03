@@ -1,0 +1,35 @@
+<html lang="zh">
+<head>
+	<meta charset="UTF-8">
+	<title>範例</title>
+</head>
+<body>
+	<h2>目錄</h2>		
+	<ul>
+			<li><a href="#ch01">前往Ch01</a></li>
+			<li><a href="#ch02">前往Ch02</a></li>
+			<li><a href="#ch03">前往Ch03</a></li>
+			<li><a href="#ch04">前往Ch04</a></li>
+			<li><a href="#ch05">前往Ch05</a></li>
+			<li><a href="#ch06">前往Ch06</a></li>
+		</ul>	
+	<h2 id="ch01">Ch01</h2>
+	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum nihil unde odit eius tempore veritatis provident repellat quo fugiat. Voluptatibus distinctio optio enim, obcaecati in? Nihil voluptatem dolor itaque sed vero repellendus similique cum corporis minus inventore alias voluptate tempora voluptates ut placeat, commodi, ea est. Est laboriosam, in libero.</p>
+	<p><a href="#top">TOP</a></p>
+	<h2 id="ch02">Ch02</h2>
+	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum nihil unde odit eius tempore veritatis provident repellat quo fugiat. Voluptatibus distinctio optio enim, obcaecati in? Nihil voluptatem dolor itaque sed vero repellendus similique cum corporis minus inventore alias voluptate tempora voluptates ut placeat, commodi, ea est. Est laboriosam, in libero.</p>
+	<p><a href="#top">TOP</a></p>
+	<h2 id="ch03">Ch03</h2>
+	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum nihil unde odit eius tempore veritatis provident repellat quo fugiat. Voluptatibus distinctio optio enim, obcaecati in? Nihil voluptatem dolor itaque sed vero repellendus similique cum corporis minus inventore alias voluptate tempora voluptates ut placeat, commodi, ea est. Est laboriosam, in libero.</p>
+	<p><a href="#top">TOP</a></p>	
+	<h2 id="ch04">Ch04</h2>
+	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum nihil unde odit eius tempore veritatis provident repellat quo fugiat. Voluptatibus distinctio optio enim, obcaecati in? Nihil voluptatem dolor itaque sed vero repellendus similique cum corporis minus inventore alias voluptate tempora voluptates ut placeat, commodi, ea est. Est laboriosam, in libero.</p>
+	<p><a href="#top">TOP</a></p>	
+	<h2 id="ch05">Ch05</h2>
+	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum nihil unde odit eius tempore veritatis provident repellat quo fugiat. Voluptatibus distinctio optio enim, obcaecati in? Nihil voluptatem dolor itaque sed vero repellendus similique cum corporis minus inventore alias voluptate tempora voluptates ut placeat, commodi, ea est. Est laboriosam, in libero.</p>
+	<p><a href="#top">TOP</a></p>	
+	<h2 id="ch06">Ch06</h2>
+	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum nihil unde odit eius tempore veritatis provident repellat quo fugiat. Voluptatibus distinctio optio enim, obcaecati in? Nihil voluptatem dolor itaque sed vero repellendus similique cum corporis minus inventore alias voluptate tempora voluptates ut placeat, commodi, ea est. Est laboriosam, in libero.</p>
+	<p><a href="#top">TOP</a></p>
+</body>
+</html>
