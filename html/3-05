@@ -1,0 +1,10 @@
+<html>
+	<head><title>範例</title></head>
+	<body>
+		<audio controls autoplay>
+			<source src="media/music.mp3" type="audio/mpeg">
+			<source src="media/music.wav" type="audio/wav">
+			目前瀏覽器不支援播放的格式
+		</audio>
+	</body>
+</html>
