@@ -1,0 +1,12 @@
+<html>
+	<head><title>範例</title></head>
+	<body>
+        <h2>認識我們</h2>
+		<ul>
+			<li><a href="http://www.e-happy.com.tw" target="_blank">文淵閣工作室</a></li>
+			<li><a href="mailto:service@e-happy.com.tw" target="_blank">公司服務信箱</a></li>
+            <li><a href="ex/2-11-1.htm" target="_self">公司介紹</a></li>
+            <li><a href="ex/file.zip">檔案下載</a></li>
+		</ul>		
+	</body>
+</html>
